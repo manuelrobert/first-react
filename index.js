@@ -1,38 +1,18 @@
-// function NavBar(){
-//     return (
-//         <ul>
-//             <li><a href="#">Home</a></li>
-//             <li><a href="#">Link</a></li>
-//             <li><a href="#">Something else here</a></li>
-//             <li><a href="#">Disabled</a></li>
-//         </ul>
-//     )
-// }
-// function MainContent(){
-//     return (
-//         <h1>I'm learning React</h1>
-//     )
-// }
-// ReactDOM.render(
-//     <div>
-//         <NavBar/>
-//         <MainContent/>
-//     </div>, 
-//     document.getElementById("root")
-// )  
 
-const navbar = (
-    <nav>
-        <h1>
-            Menu A
-        </h1>
+
+function TemporaryName(){
+    return (
+        <div>
+        <img src="./react-icon.png" width="40" />
+        <h1>Fun facts about React</h1>
         <ul>
-            <li>Menu</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li>It's composable</li>
+            <li>It's declarative</li>
+            <li>It's a hireable skill</li>
+            <li>It's actively maintained by skilled people</li>
         </ul>
-    </nav>
-)
-console.log(navbar)
+    </div>
+    )
+}
 
-ReactDOM.render(navbar, document.getElementById("root"))
+ReactDOM.render(<TemporaryName/>, document.getElementById("root"))
